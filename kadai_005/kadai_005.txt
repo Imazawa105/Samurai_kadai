@@ -1,0 +1,11 @@
+PS C:\practice\git_challenge> git init
+Initialized empty Git repository in C:/practice/git_challenge/.git/
+PS C:\practice\git_challenge> git add hello_world.txt
+PS C:\practice\git_challenge> git commit -m "最初のコミット"
+[main (root-commit) e109534] 最初のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\practice\git_challenge> git add .                     
+PS C:\practice\git_challenge> git commit -m "2回目のコミット"
+[main e432d3f] 2回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
